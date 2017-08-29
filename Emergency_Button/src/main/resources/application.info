@@ -1,0 +1,26 @@
+application.type=widget
+application.code=emergency_button
+application.title=Emergency Button
+application.description=Notifies chosen group of administrators when you need something.
+application.category=Fluig Store
+application.renderer=freemarker
+application.uiwidget=true
+application.icon=flat_emergency.png
+
+locale.file.base.name=emergency_button
+
+developer.code=bruno.bulnes
+developer.name=Bruno Bulnes
+developer.url=http://brunobulnes.tumblr.com
+
+view.file=view.ftl
+edit.file=edit.ftl
+
+application.resource.css.1=/resources/css/emergency_button.css
+application.resource.js.2=/resources/js/shortcut.js
+application.resource.js.3=/resources/js/jquery.jrumble.1.3.min.js
+application.resource.js.4=/resources/js/jquery.playSound.js
+application.resource.js.5=/resources/js/emergency_button.js
+
+application.service.participationSvc=java:global/social-ecm/social-ecm-sdk-impl/sdk/Participation
+application.service.socialSvc=java:global/social-ecm/social-ecm-relation-impl/SocialServiceBean
